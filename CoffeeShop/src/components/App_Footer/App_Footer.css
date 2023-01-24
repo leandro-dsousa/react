@@ -1,0 +1,44 @@
+.App_Footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7971d8;
+  border-radius: 10px 10px 0 0;
+}
+
+.footer-content,
+.rights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rights {
+  margin-top: 2rem;
+}
+
+.about-us,
+.business,
+.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  padding-bottom: 1rem;
+}
+
+.footer-content a,
+.rights a {
+  border-left: 1px solid #5a4fcf;
+  color: white;
+}
+
+.footer-content a:hover,
+.rights a:hover {
+  color: #fc4ea0;
+}
